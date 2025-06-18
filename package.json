@@ -1,0 +1,40 @@
+{
+  "name": "bni-victory-command-center",
+  "version": "2.0.0",
+  "description": "Victory Chapter Strategic Command Center - BNI Independence Games 2.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Victory Command Center - No tests needed, only wins\" && exit 0"
+  },
+  "keywords": [
+    "bni",
+    "victory",
+    "strategic",
+    "command-center",
+    "harvey-specter",
+    "azure"
+  ],
+  "author": "Victory Chapter - Harvey Specter Strategic Division",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebunnygoyal/bni-independence-games-2025.git"
+  },
+  "homepage": "https://bni-victory-command.azurewebsites.net",
+  "azure": {
+    "deployment": {
+      "source": "github",
+      "branch": "main",
+      "webapp": "bni-victory-command"
+    }
+  }
+}
